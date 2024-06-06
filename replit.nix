@@ -1,3 +1,7 @@
 {pkgs}: {
-  deps = [ ];
+  deps = [
+    pkgs.iproute
+    pkgs.cope
+    pkgs.unzip
+   ];
 }
